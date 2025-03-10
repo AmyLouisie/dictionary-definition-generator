@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Definition Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Definition Generator</h1>
+      <form id="definition-generator-form">
+        <input
+          type="text"
+          placeholder="Enter a word"
+          id="user-instructions"
+          class="instructions"
+          required
+        />
+        <input type="submit" class="submit-button" value="Generate" />
+      </form>
+      <div class="hint">Example: Happy, Complicated, Ambitious</div>
+      <div id="definition" class="definition hidden"></div>
+    </div>
+
+    <footer>
+      Coded by
+      <a href="https://github.com/AmyLouisie" target="_blank">Amy Ferrer</a> and
+      <a
+        href="https://github.com/AmyLouisie/dictionary-definition-generator"
+        target="_blank"
+      >
+        open-sourced on GitHub!
+      </a>
+      Hosted on
+      <a href="https://rainbow-douhua-46efe0.netlify.app" target="_blank"
+        >Netlify!</a
+      >
+      <br />
+      Aesthetic inspired by The 1975's A Brief Inquiry into Online Relationships
+    </footer>
+  </body>
+</html>
